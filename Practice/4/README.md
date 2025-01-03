@@ -7,7 +7,8 @@
 
 * Модель умеет определять яблоки, апельсины и бананы
 _____________________________________________________________________________________________________________________
-**Для обнаружения объектов необходимо ввести в терминал следующие команды:**
-1. >***cd ~/IDEProjects/PythonProject/PyTorch-YOLOv3***
-2. >***poetry run yolo-detect -m data/fruits.cfg -w data/fruits.pth -c data/classes.names -i detection_input -o detection_result***
+**Для обнаружения объектов необходимо произвести следующие действия:**
+1. **Запускать проект на python3.10**
+2. **Произвести установку зависимостей с помощью команды poetry install**
+3. **Ввести в терминал команду ниже** >***poetry run yolo-detect -m data/fruits.cfg -w data/fruits.pth -c data/classes.names -i detection_input -o detection_result***
  
